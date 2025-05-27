@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Protótipo</title>
+  <link rel="stylesheet" href="111.css">
+</head>
+<body>
+
+  <header>
+    <div class="imagem">
+    <p>
+    <img src="Logo da SECITECI.png"
+        alt="Logo da SECITECI" height="200" >
+    </p>
+    </div>
+
+    <div class="textomenu">
+    <h1>Micro Estação Meteorológica</h1>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#">Projeto intregador.</a>
+  </nav>
+
+  <div class="introdução">
+    <main>
+      <h2 align="center"> Micro Estação Meteorológica</h2>
+      <p align="center"> <img src="https://static6.depositphotos.com/1007113/582/i/950/depositphotos_5822106-stock-photo-weather-station.jpg" alt="Ilustração do projeto" height="300" width="380"> 
+      </p>
+      <p>Nosso projeto consiste em criar uma micro estação meteorológica com a participação de todos dividindo em três grupos.</p>
+      <p>
+        <ul>
+            <li>Montagem.</li>
+            <li>Banco de dados.</li>
+            <li>Página Web.</li>
+        </ul>
+      </p>
+    </main>
+
+    <aside>
+      <h3 align="center"> Alunos do projeto
+      <img src="Foto da turma.png" alt="Foto da turma" height="300" width="380">
+      <p>Foto da turma em março</p>
+    </aside>
+</div>
+
+<div class="container">
+
+  <div class="menu">
+    <h2>Desenvolvimento</h2>
+    <ul>
+      <li onclick="exibir('Montagem')">Montagem</li>
+      <li onclick="exibir('Dados')">Banco de dados</li>
+      <li onclick="exibir('Página')">Página Web</li>
+    </ul>
+  </div>
+
+  <div class="conteudo">
+    
+    <div id="Montagem" class="painel">O grupo de montagem é composto por Fernando, Nelci, Daniel e Matheus.</div>
+    <div id="Dados" class="painel">O grupo do banco de dados é composto por Fábio, Emmily, Eliane e Marcos.</div>
+    <div id="Página" class="painel"><h3>Página web</h3>
+      <p>O grupo da página web é composto por Luana, Vinicius, Elder e Otávio</p> 
+      
+      <p>Parte do projeto consiste no desenvolvimento da página web, utilizando linguagens de programação específicas para construir a interface. Aplicamos conhecimentos adquiridos nas aulas de Desenvolvimento e Aplicações de Sistemas, além de realizar pesquisas na internet para aprender técnicas mais avançadas ainda não abordadas em sala.
+        Atualmente, estamos desenvolvendo um protótipo que envolve não apenas HTML e CSS, mas também JavaScript, cuja utilização foi aprendida por meio dessas pesquisas.</p>
+    </div>
+
+  </div>
+
+</div>
+<script>
+function exibir(id) {
+  const paineis = document.querySelectorAll('.painel');
+  paineis.forEach(painel => painel.style.display = 'none');
+
+  const selecionado = document.getElementById(id);
+  if (selecionado) {
+    selecionado.style.display = 'block';
+  }
+}
+</script>
+
+</body>
+</html>
+
+  <footer>
+    <p>&copy; 2025 Desenvolvido pelos alunos do curso técnico de informática | SECITECI Cuiabá-MT.</p>
+  </footer>
+
+</body>
+</html>
