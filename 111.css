@@ -60,10 +60,14 @@
     }
 
      @media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-    gap: 0;
+  body {
+    font-size: 14px;
   }
+
+  .menu {
+    display: none;
+  }
+}
 
   main, aside {
     margin-right: 0;
