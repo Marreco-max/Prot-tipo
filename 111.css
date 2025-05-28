@@ -59,15 +59,17 @@
       margin-top: 2rem;
     }
 
-    @media (max-width: 768px) {
-      .container {
-        flex-direction: column;
-      }
+     @media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    gap: 0;
+  }
 
-      main, aside {
-        margin-right: 0;
-      }
-    }
+  main, aside {
+    margin-right: 0;
+    width: 100%;
+  }
+}
 
 .menu {
   width: 200px;
