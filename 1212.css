@@ -46,20 +46,16 @@ main {
     padding: 20%;
 }
 
-.Introdução {
-    margin-top: 20px;
-    
-}
+
 
 .Introduçãotxt {
-    background-color: #f4f4f4;
-    padding: 20px;
+    background-color: #ffffff;
+    padding: 1rem;
     margin-bottom: 10px;
     border-radius: 5px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-
 }
 
 .Introduçãotxt img {
@@ -77,6 +73,30 @@ main {
     color: #003366;
     text-decoration: none;
 }
+
+.Desenvolvimento {
+    margin-top: 20px;
+}
+
+.Desenvolvimento ul{
+    margin-bottom: 20px;
+}
+
+.Desenvolvimento h3 {
+    margin-top: 20px;
+}
+
+.Desenvolvimento-txt2{
+    padding: 1rem;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.Desenvolvimento-txt2 p {
+    margin-top: 10px;
+}
+
 
 footer {
     background-color: #003366;
@@ -157,5 +177,11 @@ footer {
 
     #sidebar {
         width: 100%;
+    }
+
+    body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    font-size: 20%;
     }
 }
