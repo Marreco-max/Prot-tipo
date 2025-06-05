@@ -176,12 +176,6 @@ footer {
     }
 
     #sidebar {
-        width: 40%;
+        width: 100%;
     }
-
-    body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    font-size: 40%;
-    }
-}
+}}
